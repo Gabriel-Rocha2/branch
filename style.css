@@ -1,0 +1,77 @@
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.fotos{
+    border-radius: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2px;
+}
+.absolute1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 350px;
+    padding: 2px;
+}
+
+.absolute2{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: red;
+    border-radius: 5px;
+    /* margin: 10px; */
+    /* margin-right: 50px; */
+    /* margin-top:50px; */
+    padding: 2px;
+}
+.relative1{
+    position: relative;
+}
+.absolute3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    margin-right: 700px;
+}
+.baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.absolute2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icones-direção{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icones{
+    display: flex;
+    gap: 10px;
+}
